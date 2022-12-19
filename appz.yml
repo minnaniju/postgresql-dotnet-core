@@ -8,7 +8,7 @@ build:
     env: DEV
     build_file: none
     args:
-      BUILD_DIR: /src
+      BUILD_DIR: /
       PROJECT_PATH: /PostgreSqlDotnetCore/PostgreSqlDotnetCore.csproj
       NUGET_CONFIG: /Nuget.Config
     output_files: output/*.zip
