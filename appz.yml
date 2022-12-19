@@ -19,6 +19,7 @@ deploy:
     replicas: 1
     port:
     - 80
+    - 8081
     
 properties:
    DB_SERVER: postgres13-master-13-x
@@ -29,4 +30,4 @@ properties:
       vault: POSTGRESQL_DOTNET_PASSWORD
    ASPNETCORE_ENVIRONMENT: Development
    DLL: PostgreSqlDotnetCore.dll
-   revision: 28
+   revision: 29
