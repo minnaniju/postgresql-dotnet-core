@@ -19,8 +19,6 @@ deploy:
     replicas: 1
     port:
     - 80
-    - 8081
-    
 properties:
    DB_SERVER: postgres13-master-13-x
    DB_PORT: 5432
